@@ -1,0 +1,146 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-Regular.ttf");
+
+    font-family: "Open Sans Extra Bold";
+    src: url("../fonts/OpenSans-ExtraBold.ttf");
+}
+*{
+    margin: 0;
+    left: 0;
+    box-sizing: border-box;
+}
+
+main.content{
+    width: 100vw;
+    margin: 0 auto;
+    
+}
+
+.main{
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100vw;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+}
+
+.logo_vermelho{
+    
+}
+
+.menu ul{
+
+}
+
+.menu ul li{
+    color: #777777;
+    font-family: "Open Sans";
+    display: inline;
+    width: 91px;
+    margin-right: 5vw;
+    font-weight: 600;
+}
+
+.menu ul a{
+    text-decoration: none;
+}
+
+.banner{
+    width: 100%;
+    height: 235px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+
+
+section.banner img{
+    max-width: 100%;
+    width: 100vw;
+    height: 236px;
+}
+
+.tit_centro_inicio h2{
+    text-align: center;
+    font-size: 60px;
+    margin: 82px;
+}
+
+.lado_a_lado_1{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.img_left{
+    max-width: 100%;
+    margin-right: 54px;
+    margin-top: 90px;
+}
+.img_right{
+    max-width: 100%; 
+    margin-bottom: 207px;
+}
+
+.quatro_saltos{
+    width: 100vw;
+    height: 662px;
+    background-color: #C2185B;
+}
+article{
+    margin: 0 auto;
+    margin-right: 18px;
+    
+}
+.tit_desconto{
+    font-family: "Open Sans Extra Bold";
+    font-weight: 800;
+    color: white;
+    font-size: 44px;
+    text-align: center;
+    padding-top: 61px;
+    margin-bottom: 54px;
+}
+.articles{
+    display: flex;
+    margin-left: 8vw;
+    margin-right: 84px;
+    margin-bottom: 0;
+    
+}
+.articles img{
+    background-color: white;
+}
+figure{
+    background-color: white;
+}
+
+figcaption{
+    display: flex;
+    font-family: "Open Sans";
+    font-weight: 600;
+    flex-direction: column;
+    margin-left: 10px;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.preco{
+    text-align: left;    
+}
+
+figcaption{
+    height: 88px;
+    background-color: white;
+    margin: 0;
+}
