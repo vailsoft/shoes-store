@@ -23,9 +23,10 @@ body{
 
 main.content{
     width: 100vw;
-    margin: 0 auto;
-    
+    margin: 0 auto;    
 }
+
+
 
 .main{
     width: 100vw;
@@ -41,6 +42,7 @@ header{
     justify-content: space-between;
     align-items: center;
     width: 100vw;
+    box-shadow: 1px 1px 5px #9f9f9f;
 }
 
 .menu ul li{
@@ -260,4 +262,125 @@ div.menus{
     text-decoration: none;
 }
 
+.form_contato{
+    width: 538px;
+    display: block;
+    margin-left: 123px;
+    margin-right: 75px;
+}
 
+.tit_contato{
+    color: #575757;
+    margin-left: 123px;
+    margin-bottom: 36px;
+    margin-top: 55px;
+    size: 39px;
+}
+
+.form_contato input[type='text'], input[type='email'] , textarea, select{
+    width: 538px;
+    border: solid 1px #9B9B9B;
+    margin-bottom: 15px;
+    
+}
+
+
+input[type="checkbox"] .tipo_dispon{
+    background-color: red;
+}
+
+.hidden{
+    display: none;
+}
+
+label.lbl_file{
+    background-color: #c4c4c4;
+    padding: 0 25px;
+    color: white; 
+    cursor: pointer;  
+}
+.curriculo{
+    color: #9b9b9b;
+}
+
+
+/* checkbox personalizada*/
+
+.custom_checkbox input,
+.custom-radio input{
+    display: none;
+}
+
+.custom_checkbox input+label::before{
+    content: "";
+    width: 18px;
+    height: 18px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    border-radius: 4px;
+    background-color: #c4c4c4;
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+
+.custom_checkbox input:checked + label::before{
+    background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 10 10'%3E%3Cg class='nc-icon-wrapper' stroke-width='1' fill='%23555555'%3E%3Cpath fill='none' stroke='%23FFFFFF' stroke-linecap='round' stroke-linejoin='round' stroke-miterlimit='10' data-cap='butt' d='M2.83 4.72l1.58 1.58 2.83-2.83'/%3E%3C/g%3E%3C/svg%3E");
+    background-color: #194cd8;
+    border: none;
+}
+
+.custom-radio input + label:before {
+    content: '';
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #c4c4c4;
+    border: 1px solid gray;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+    margin-bottom: 3px;
+    
+  }
+  
+  .custom-radio input:checked + label:before {
+    background-color: white;
+    box-sizing: border-box;
+    border: 5px solid#194cd8;
+    padding: 4px;
+    
+  }
+
+  .checkboxes{
+      display: flex;
+      align-content: space-between;
+  }
+
+  .radios{
+    display: flex;
+  }
+
+  label{
+      color: #9b9b9b;
+  }
+
+  button[type="submit"]{
+      background-color: #C2185B;
+      border: none;
+      width: 100%;
+      height: 33px;
+      margin-bottom: 57px;
+      margin-top: 24px;
+  }
+
+  .content_trabalhe_conosco{
+    display: flex;
+    }
+  .conteudo_trabalhe_conosco{
+    width: 35vw;
+    height: 448px;
+    color: #575757;
+  }
+  
